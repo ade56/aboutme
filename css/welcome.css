@@ -1,0 +1,33 @@
+div > a {color: white; font-size: 20;}
+
+p {color: rgb(244,237,202) }
+
+#visualLinkContent {
+	padding: 50px;
+	text-align:center;
+	margin-left: 20%;
+}
+
+#visualLinkContent > div {
+	position: fixed;
+	top : 300px;
+	text-align:center;
+	width: 260px;
+	outline: 1px solid #111;
+	border-top: 1px solid #555;
+	padding: 20px;
+	background: #222222;
+}
+
+#visualLinkDescription { 
+	text-align:center;
+}
+
+#phpLink {margin-left: 20%; }
+#rubyLink {margin-left: 40%; }
+
+#welcome, #welcome b{
+	padding-top : 50px;
+	font-size : 23;
+	text-align: center;
+}

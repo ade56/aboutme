@@ -1,0 +1,50 @@
+* { font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif; }
+
+a { font-size: 15; text-decoration:none;}
+
+b {	color: white; }
+
+body { min-width:1000px; background-image:url('../images/pattern.png'); background-repeat: repeat;}
+
+p {color: rgb(244,237,202) }
+
+b > a {color: rgb(64,64,64); padding-left: 10px;}
+
+#header {
+	color: white;
+	height: 60px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7D9460), to(#B5AA94));
+	background: -moz-linear-gradient(top,  #7D9460,  #B5AA94);	
+	margin-top: 20px;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#header a:last-child {border-left: none;}
+
+#header > * {
+	color: #222222;
+}
+
+#header > a {
+	padding: 20px;
+	padding-right: 30px;
+	padding-top: 23px;
+	border-left: 1px solid #B7C5A5;
+	border-right: 1px solid #4F5A3D;
+	text-align: center;	
+	margin-right: 1px;
+	float: right;
+	width: 140px;
+}
+
+#name { 
+	height: 47px;
+	padding-top: 15px;
+	padding-left: 30px;
+	float: left;
+	font-size: 25;
+}

@@ -1,0 +1,140 @@
+body {
+	background-color:#636155;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(crazytree.jpg) left top;
+}
+
+p {
+	font-family:"Arial";
+	font-size:20px;
+}
+
+a {
+	font-size:13px;
+	color:white;
+}
+
+textarea {
+	width: inherit;
+	background: #F1EEDD;
+	border-style:solid;
+	border-width:0px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-color: #B0C08F;
+}
+
+#treeone {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index:-1;
+}
+#treetwo {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	z-index:-1;
+}
+
+#edit {
+	margin-left: 848px;
+}
+
+#save {
+	margin-left: 440px;
+	visibility: hidden;
+}
+
+#blogentry {
+	border-style:solid;
+	border-color: #B5AA94;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7D9460), to(#B5AA94));
+	background: -moz-linear-gradient(top,  #7D9460,  #B5AA94);
+}
+
+#blogentry {
+	width: 950px;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	bottom: 0px;
+	margin-left: -475px;
+} 
+
+#entryborder {
+	position: fixed;
+	height: 0%;
+	width: 980px;
+	bottom: 21%;
+	left: 50%;
+	margin-left: -490px;
+	border-top: 1px solid #333;
+}
+
+#content {
+	font-size:14px;
+	width: relative;
+	height: 70px;
+	margin: 1px;
+	background: #F1EEDD;
+	border-style:solid;
+	border-color: #B0C08F;
+	padding: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	overflow-y: auto;
+}
+
+#title, #content {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-left: 0px;
+}
+
+#title {
+	font-size:13px;	
+	color:white;
+	background : -webkit-gradient(linear, left top, left bottom, from(#7D9460), to(#B5AA94));	
+	background: -moz-linear-gradient(top,  #B5AA94, #7D9460);
+}
+
+#test {
+	padding: 5px;
+	padding-top: 0px;
+
+}
+
+#blogcontent {
+	height: 64%;
+	width: 910px;
+	overflow-y: auto;
+	border-bottom: 1px solid #111;
+	margin: auto;
+	color: #fff;
+	padding: 20px;
+	background: #111;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#blogcontent > * {
+	width: 940px;
+	margin : auto;
+	margin-top: 5px;
+	padding:4px;
+	background: #7D9460;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+
+#blogcontent div {
+	text-align: left;	
+	padding : 5px;
+}
