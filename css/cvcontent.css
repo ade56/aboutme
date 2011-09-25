@@ -1,33 +1,58 @@
-li > b {
-	font-size: 20;
-	color:white;
+li { list-style-type: none;}
+
+div.skill > a {
+	color: rgb(154,154,154);
+	padding-top: 50px;
 }
 
-div > li {
-	color: rgb(154,154,154);
+div.skill > * {
+}
+
+div.skill {
+	text-align: left;
+	padding: 20px;
+	padding-left: 20px;
 }
 
 #progList { text-align: left; }
 
-div.skill {
-	text-align: left;
-	padding: 10px;
-	padding-left: 20px;
-}
-
-li { padding-left:0px; padding: 10px; padding-right: 30px; color: rgb(244,237,202); list-style-type: none;}
-
-td.skillList {
-	width: 130px;
-	border-left: 1px solid black;
-	border-right: 1px solid #333;
-}
-
-td.skillList:first-child {border-left: none;}
-td.skillList:last-child {border-right: none;}
-
-#titles {
+div.technology {
 	text-align: center;
-	width: 130px;
+	margin: 20px;
+	margin-top: 70px;
+	margin-left: 35px;
+	width: 230px;
+	height: 110px;
+	vertical-align: middle;
+	background: #B5AA94;
+	float: left;
+	padding: 20px;
+	-webkit-border-radius: 15;
+	-moz-border-radius: 15px;
 }
 
+div.technology > * {
+	float: left;
+	text-align: left;
+	list-style-type: default;
+}
+
+div.technology > ul > li {
+	padding-bottom: 10px;
+	color: #111;
+}
+
+#box {
+
+}
+
+#control {
+	margin-left: 355px;
+}
+
+#control > *{
+	color: #111;
+	padding: 25px;
+	text-align:center;
+	padding-top: 10px;
+}
