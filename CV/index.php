@@ -22,6 +22,7 @@ $(document).ready(function(){
 	<title> Andrew Evans Cirriculum Vitae </title>
 	<link href="../css/header.css" rel="stylesheet" type="text/css" media="screen" />
 	<link href="../css/cv.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="../css/cvcontent.css" rel="stylesheet" type="text/css" media="screen" />
 <head>
 
 <body>
