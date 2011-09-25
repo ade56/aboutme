@@ -6,7 +6,7 @@ $(document).ready(function(){
 	/** */
 	$('.request').click(function(){
 		
-		var url = "content.php?content=";
+		var url = "/CV/content.php?content=";
 		var id = $(this).attr('id');
 
 		$("#tabPane").load(url+id);
