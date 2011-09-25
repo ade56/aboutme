@@ -7,7 +7,7 @@ li > b{
 	width: 1000px;
 	height: 80%;
 	text-align: center;
-	overflow-y:scroll;
+	overflow-y:auto;
 	color: #fff;
 	padding: 20px;
 	background: #111;

@@ -9,6 +9,7 @@ p {color: rgb(244,237,202) }
 }
 
 #visualLinkContent > div {
+	color: white;
 	position: fixed;
 	top : 300px;
 	text-align:center;

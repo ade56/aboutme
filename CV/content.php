@@ -34,13 +34,15 @@
 				<script type="text/javascript" src="../js/jquery.js"></script>
 				<script type="text/javascript">
 					$(document).ready(function(){
-							$('#mugshot').click(function() {
+							$('#picture').click(function() {
 							if ($("#mug").is(":hidden")) {
 								$("#mug").slideDown("slow");
-								this.innerHTML = 'Ewww.. retract!<img src="../images/up.png"/>';
+								$(this).css('background', '#111');
+								this.innerHTML = '<b>Ewww.. retract!</b>';
 							} else {
-								$("#mug").hide();
-								this.innerHTML = 'Mug Shot<img src="../images/down.png"/>';
+								$("#mug").slideUp("slow");
+								$(this).css('background', '#222');
+								this.innerHTML = '<b>Mug Shot</b>';
 							}
 						});
 					});
@@ -67,10 +69,10 @@
 					    + tour de france + Lance Armstrong + all blacks + good books + Roger Federer...</a>
 				</div>
 				
-				<div class='skill'>
-					<b id='mugshot'> Mug Shot <img src="../images/down.png"/> </b> </br> 			
-					<img id="mug" src="../images/mug.png" style="position: relative; " />
+				<div id='picture'>
+					<b id='mugshot'> Mug Shot </b>			
 				</div>
+				<img id="mug" src="../images/mug.png" style="" />
 				
 						
 			<?php
@@ -95,9 +97,10 @@
 				</div>
 				
 				<div class='technology' id='control'>
-					<a> Ubuntu OS, GitHub version control, Capistrano Deployment </br>
-					<img align="middle" src='../images/linux.png'/> <img align="middle" src='../images/github_icon.png'/>
+					<a> Ubuntu OS, GitHub, Capistrano</a> </br>
+					<img align="middle" src='../images/linux.png'/> <img align="middle" src='../images/github_icon.png'/> 
 				</div>
+			
 			<?php
 		}
 	}
