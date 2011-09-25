@@ -1,0 +1,33 @@
+li > b {
+	font-size: 20;
+	color:white;
+}
+
+div > li {
+	color: rgb(154,154,154);
+}
+
+#progList { text-align: left; }
+
+div.skill {
+	text-align: left;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+li { padding-left:0px; padding: 10px; padding-right: 30px; color: rgb(244,237,202); list-style-type: none;}
+
+td.skillList {
+	width: 130px;
+	border-left: 1px solid black;
+	border-right: 1px solid #333;
+}
+
+td.skillList:first-child {border-left: none;}
+td.skillList:last-child {border-right: none;}
+
+#titles {
+	text-align: center;
+	width: 130px;
+}
+
