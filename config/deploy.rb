@@ -1,6 +1,6 @@
-set :application, "aevans"
+set :application, "aboutme"
 set :domain, "173.230.152.239"
-set :repository,  "git://github.com/ade56/aevans.git"
+set :repository,  "git://github.com/ade56/aboutme.git"
 set :user, "root"
 set :scm, :git
 set :deploy_to, "/apps/#{application}"

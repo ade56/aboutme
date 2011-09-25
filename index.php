@@ -29,7 +29,7 @@ $(document).ready(function(){
 	
 	<div id='visualLinkContent'>		
 		<div id='cvLink'>
-			<a href='/cv'><img src="images/cv.png"  alt="cv"/> Cirriculum Vitae </a>
+			<a href='/CV'><img src="images/cv.png"  alt="cv"/> Cirriculum Vitae </a>
 		</div>
 		<div id='phpLink'>
 			<a href='/phpblog'><img  src="images/php.png" alt="cv"/>PHP Blog</a>
