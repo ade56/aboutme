@@ -11,8 +11,9 @@ $(document).ready(function(){
 
 		$("#tabPane").load(url+id);
 	});
-	
 });
+
+
 
 </script>
 

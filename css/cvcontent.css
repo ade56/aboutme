@@ -27,7 +27,7 @@ div.technology {
 	background: #B5AA94;
 	float: left;
 	padding: 20px;
-	-webkit-border-radius: 15;
+	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 }
 
@@ -42,8 +42,21 @@ div.technology > ul > li {
 	color: #111;
 }
 
-#box {
+#mug {
+	display: none;
+	margin-left: 60px;
+}
 
+#mugshot {
+color: #111;
+	padding: 10px;
+	background: #7D9460;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 #control {

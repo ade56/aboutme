@@ -31,6 +31,21 @@
 		/** */
 		if($request == 'youRequest'){
 			?>	
+				<script type="text/javascript" src="../js/jquery.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function(){
+							$('#mugshot').click(function() {
+							if ($("#mug").is(":hidden")) {
+								$("#mug").slideDown("slow");
+								this.innerHTML = 'Ewww.. retract!<img src="../images/up.png"/>';
+							} else {
+								$("#mug").hide();
+								this.innerHTML = 'Mug Shot<img src="../images/down.png"/>';
+							}
+						});
+					});
+				</script>
+				
 				<h1> Personal Summary </h1>
 				
 				<div class='skill'>
@@ -51,6 +66,13 @@
 					<a> Tennis, cricket, cycling (road+mtb) and surfing are primary sporting interests, these sports allow me to keep fit and interact with others. </br>
 					    + tour de france + Lance Armstrong + all blacks + good books + Roger Federer...</a>
 				</div>
+				
+				<div class='skill'>
+					<b id='mugshot'> Mug Shot <img src="../images/down.png"/> </b> </br> 			
+					<img id="mug" src="../images/mug.png" style="position: relative; " />
+				</div>
+				
+						
 			<?php
 			
 		}
@@ -76,7 +98,6 @@
 					<a> Ubuntu OS, GitHub version control, Capistrano Deployment </br>
 					<img align="middle" src='../images/linux.png'/> <img align="middle" src='../images/github_icon.png'/>
 				</div>
-				
 			<?php
 		}
 	}
