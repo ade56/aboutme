@@ -84,6 +84,16 @@
 			?>
 				<h2> About this site...? </h2>
 				
+				<div class='skill'>
+					<img align="middle" id='progImg' src='../images/info.png'/>  <b> Whats going on here..?</b> </br> 
+					<a> <ul id='aboutList'><li>Ubuntu 10.1 OS with an apache http web server hosted via linode.</li>
+						<li>PHP, MySQL installed using aptitude. </li>
+					    <li> GitHUB and Capistrano used for version control and deployment. </li>
+						<li> Menu on left hand side populates area through HttpRequests via JQuery </li>
+						<li> Everything else standard HTML/CSS/PHP mixed together :).. </li></ul>
+					</a>
+				</div>
+				
 				<div class='technology'>
 					<img align="middle" src='../images/client.png'/> <ul> <li> HTML </li> <li> JQuery </li> <li> CSS </li> </ul>
 				</div >
