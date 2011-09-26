@@ -14,15 +14,19 @@
 				<h1> Technical Summary </h1>
 				
 				<div class='skill'>
-					<img align="middle" src='../images/prog.png'/>  <b>Programming..?</b> </br> <a>Java, Python, OO Design, Design Patterns</a> 
+					<img align="middle" src='../images/eng.png'/>  <b>Programming..?</b> </br> <a>Java, Python, PHP, C#.NET MVC, OO Design, Design Patterns</a> 
 				</div>
 				
 				<div class='skill'>
-					<img align="middle" src='../images/server.png'/>  <b>Web Stuff..?</b> </br> <a><b>(Client)</b> Javascript/JQuery, CSS/CSS3, HTML/XML, HTTP Request,<b>(Server)</b> PHP, C#.NET MVC, Apache HTTP</a> 
+					<img align="middle" src='../images/www.png'/>  <b>Web Stuff..?</b> </br> <a> Javascript/JQuery, CSS/CSS3, AJAX, Apache HTTP Web Server</a> 
 				</div>
 				
 				<div class='skill'>
 					<img align="middle" id='progImg' src='../images/db.png'/>  <b>Databases..?</b> </br> <a> Structured Query Language, RDBMS, MySQL, PostGRESQL(PostGIS)</a>
+				</div>
+				
+				<div class='skill'>
+					<img align="middle" id='progImg' src='../images/prog.png'/>  <b>Tools..?</b> </br> <a> Git/github, SVN, Capistrano</a>
 				</div>
 				
 			<?php

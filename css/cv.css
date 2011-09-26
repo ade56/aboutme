@@ -46,6 +46,7 @@ body {
 	color: rgb(244,237,202);
 	border-top: 1px solid #333;
 	border-bottom: 1px solid #111;
+	cursor: pointer;
 }
 
 #leftPane  > li:first-child {border-top: none;}

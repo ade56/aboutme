@@ -40,7 +40,7 @@ $(document).ready(function(){
 		
 		<div id='tabPane'>
 			<?php 
-				include('cv.htm');
+				include('cv.html');
 			?>
 		</div>	
 	</div>
