@@ -8,14 +8,16 @@ body { min-width:1000px; background-image:url('../images/pattern.png'); backgrou
 
 p {color: rgb(244,237,202) }
 
-b > a {color: rgb(64,64,64); padding-left: 10px;}
+h1 > b {color: #222; font-size: 24; padding: 20px;}
 
 #header {
+	width: 98%;
 	color: white;
 	height: 60px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#7D9460), to(#B5AA94));
 	background: -moz-linear-gradient(top,  #7D9460,  #B5AA94);	
-	margin-top: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 	border: 1px solid #000;
 	border-right: 1px solid #353535;
 	border-bottom: 1px solid #353535;
@@ -26,13 +28,23 @@ b > a {color: rgb(64,64,64); padding-left: 10px;}
 #header a:last-child {border-left: none;}
 
 #header > * {
-	color: #222222;
+	vertical-align: middle;
 }
 
+#header > h1 {
+	padding-top : 5px;
+	float: left;
+	color: rgb(64,64,64);
+	font-size: 16;
+	padding-left: 10px;
+	overflow: hidden;
+}
 #header > a {
-	padding: 20px;
+	height: 40px;
+	color: #222222;
+	padding-top : 20px;
+	font-weight: bold;
 	padding-right: 30px;
-	padding-top: 23px;
 	border-left: 1px solid #B7C5A5;
 	border-right: 1px solid #4F5A3D;
 	text-align: center;	
@@ -42,9 +54,7 @@ b > a {color: rgb(64,64,64); padding-left: 10px;}
 }
 
 #name { 
-	height: 47px;
-	padding-top: 15px;
 	padding-left: 30px;
 	float: left;
-	font-size: 25;
+	font-size: 25;	
 }

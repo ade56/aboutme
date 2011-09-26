@@ -30,21 +30,19 @@ $(document).ready(function(){
 	<?php 
 		include('../header.php');
 	?>	
-	<ul id='leftPane'>
-		<li class='request' id='cvRequest'> <b>Cirriculum Vitae</b> </br> the whole lot.. </li>
-		<li class='request' id='techRequest'> <b>Technical Summary</b> </br> what can I do? </li>
-		<li class='request' id='youRequest'> <b>Personal Summary</b> </br> what am I interested in? </li>
-		<li class='request' id='siteRequest'> <b>About this site</b> </br> technology used in this site </li>
-	</ul>
-	
-	<div id='tabPane'>
-		<?php 
-			include('cv.htm');
-		?>
-	</div>	
-	
-	<div id='rightPane'>
+	<div id='centralContent'>
+		<ul id='leftPane'>
+			<li class='request' id='cvRequest'> <b>Cirriculum Vitae</b> </br> the whole lot.. </li>
+			<li class='request' id='techRequest'> <b>Technical Summary</b> </br> what can I do? </li>
+			<li class='request' id='youRequest'> <b>Personal Summary</b> </br> what am I interested in? </li>
+			<li class='request' id='siteRequest'> <b>About this site</b> </br> technology used in this site </li>
+		</ul>
 		
+		<div id='tabPane'>
+			<?php 
+				include('cv.htm');
+			?>
+		</div>	
 	</div>
 </body>
 </html>
