@@ -24,11 +24,11 @@ class blogpost {
 	var $textContent;
 	
 	public function updatePostInfo($row){
-		$this->id = $row->postID;
-		$this->username = $row->username;
-		$this->date = $row->date;
-		$this->time = $row->time;
-		$this->textContent = $row->textContent;				
+		$this->id = $row['postID'];
+		$this->username = $row['username'];
+		$this->date = $row['date'];
+		$this->time = $row['time'];
+		$this->textContent = $row['textContent'];			
 	}
 	
 	public function displayPost(){

@@ -1,8 +1,10 @@
 <?php
 	include('blogpost.php');
 	
-	$db = mysql_connect('localhost:3306', 'root', '9YijdeL4');
-	mysql_select_db("blogDB", $db);
+	define("MYSQL_HOST", "localhost");
+	define("MYSQL_USER", "root");
+	define("MYSQL_PASS", "");
+	define("MYSQL_DB", "blogDB");
 
 	if (isset($_GET['remove'])){
 		$blogPost = new blogpost();

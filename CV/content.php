@@ -5,7 +5,7 @@
 		
 		/** */
 		if($request == 'cvRequest'){
-			include('cv.htm');
+			include('cv.html');
 		}
 		
 		/** */

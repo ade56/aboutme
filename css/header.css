@@ -11,7 +11,7 @@ p {color: rgb(244,237,202) }
 h1 > b {color: #222; font-size: 24; padding: 20px;}
 
 #header {
-	width: 98%;
+	width: 100%;
 	color: white;
 	height: 60px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#7D9460), to(#B5AA94));
@@ -38,6 +38,10 @@ h1 > b {color: #222; font-size: 24; padding: 20px;}
 	font-size: 16;
 	padding-left: 10px;
 	overflow: hidden;
+}
+
+#header > #ror {
+	border-right: none;
 }
 #header > a {
 	height: 40px;

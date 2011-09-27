@@ -68,8 +68,11 @@ $(document).ready(function(){
 			# Define MySQL Settings
 			define("MYSQL_HOST", "localhost");
 			define("MYSQL_USER", "root");
-			define("MYSQL_PASS", "");
+			define("MYSQL_PASS", "9YijdeL4");
 			define("MYSQL_DB", "blogDB");
+			
+			$db = mysql_connect("".MYSQL_HOST."", "".MYSQL_USER."", "".MYSQL_PASS."") or die(mysql_error());
+			mysql_select_db("".MYSQL_DB."",$db) or die(mysql_error());
 			
 			$sql = "CREATE TABLE IF NOT EXISTS blogPosts (
 					postID int NOT NULL AUTO_INCREMENT,
@@ -80,7 +83,7 @@ $(document).ready(function(){
 					PRIMARY KEY (postID)
 					)";
 			
-			mysql_query($sql);			
+			$res = mysql_query($sql);			
 			
 			$blogEntry = new blogentry();
 
@@ -90,15 +93,15 @@ $(document).ready(function(){
 			$sql = "SELECT * FROM `blogPosts` ORDER BY date DESC, time DESC";
 			
 			/** User Has Selected A Post.. Most Likely Via Facebook which is displayed Solo*/
-			if($_GET['post'])
+			if($_GET['post']){
 				$post = $_GET['post'];
 				$sql = "SELECT * FROM `blogPosts` WHERE postID='$post'";
-				
+			}
 			$result = mysql_query($sql);	
 
 			echo "<div id='blogContent'> \n";
 
-			while(($row = mysql_fetch_object($result)) != false) {
+			while ($row = mysql_fetch_array($result)) {
 				$blogpost = new blogpost();
 				$blogpost->updatePostInfo($row);
 
