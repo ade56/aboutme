@@ -35,7 +35,7 @@ $(document).ready(function(){
 			<a href='/phpblog'><img  src="images/php.png" alt="cv"/>PHP Blog</a>
 		</div>
 		<div id='rubyLink'>
-			<a><img src="images/ruby.png" alt="cv"/> Ruby on Rails TBC..</a>
+			<a href='/ror'><img src="images/ruby.png" alt="cv"/> Ruby on Rails TBC..</a>
 		</div>
 	</div>	
 
