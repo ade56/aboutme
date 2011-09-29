@@ -129,7 +129,7 @@ $(document).ready(function(){
 			echo "</div> \n";
 
 			echo "<div id='entryGradient'> \n";
-			echo $blogEntry->displayEntry();
+			echo $blogEntry->display();
 			echo "</div> \n";
 			
 	?>

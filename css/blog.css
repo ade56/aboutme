@@ -48,7 +48,7 @@ body {
 	-moz-border-radius: 5px;
 }
 
-.postText, #entryTextArea {
+.postText {
 	font-size:14px;
 	margin: 1px;
 	background: #F1EEDD;
@@ -86,7 +86,7 @@ body {
 }
 
 #blogentry {
-	height: 20%;
+	height: 200px;
 	border-style:solid;
 	border-color: #B5AA94;
 	border-radius: 15px;
@@ -97,8 +97,50 @@ body {
 	margin-top: 19%;
 }
 
+#entryTitle {
+	font-weight: bold;
+	color: white;
+	width: 920px;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid rgb(91, 106, 70);
+}
+
+#loginContent {
+	padding-top: 15px;
+}
+
+#loginContent > a  {
+	color: rgb(244,237,202);
+	padding: 5px;
+}
+
+.loginInput {
+	background-color: rgb(108,113,81);
+	padding: 5px;
+	border: 1px solid rgb(83, 87, 62);
+	border-right: 1px solid #B5AA94;
+	border-bottom: 1px solid #B5AA94;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#submit {
+	color: rgb(244,237,202);
+	padding: 10px;
+	margin-left: 10px;
+	background: rgb(108,113,81);
+	border: 1px solid rgb(83, 87, 62);
+	border-left: 1px solid #B5AA94;
+	border-top: 1px solid #B5AA94;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
 #entryTextArea {
-	height: inherit;
+	border-top: 1px solid rgb(181, 193, 162);
 	width: 940px;
 }
 
