@@ -21,10 +21,10 @@ p {color: rgb(244,237,202) }
 	color: white;
 	width: 260px;
 	height: 285px;
-	outline: 1px solid #111;
 	border-top: 1px solid #555;
 	padding: 20px;
 	background: #222222;
+	outline: 1px solid #111;
 }
 
 #visualLinkContent > div > a{

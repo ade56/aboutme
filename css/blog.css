@@ -37,8 +37,9 @@ body {
 	padding: 5px;
 	font-size:13px;	
 	color:white;
-	background : -webkit-gradient(linear, left top, left bottom, from(#7D9460), to(#B5AA94));	
+	background: -webkit-gradient(linear, left top, left bottom, from(#7D9460), to(#B5AA94));	
 	background: -moz-linear-gradient(top,  #B5AA94, #7D9460);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7D9460', endColorstr='#B5AA94');
 }
 
 .close { margin-left: 855px; }

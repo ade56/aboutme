@@ -17,8 +17,10 @@ h1 > b {color: #222; font-size: 24; padding: 20px;}
 	height: 60px;
 	max-height: 60px;
 	overflow: hidden;
+	background: #7D9460;
 	background: -webkit-gradient(linear, left top, left bottom, from(#7D9460), to(#B5AA94));
 	background: -moz-linear-gradient(top,  #7D9460,  #B5AA94);	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7D9460', endColorstr='#B5AA94');
 	margin-top: 0px;
 	margin-bottom: 20px;
 	border: 1px solid #000;

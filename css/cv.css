@@ -16,7 +16,6 @@ body {
 #tabPane {
 	float: left;
 	width: 1000px;
-	minimum-height: 80%;
 	text-align: center;
 	overflow-y:auto;
 	color: #fff;
