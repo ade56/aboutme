@@ -1,8 +1,11 @@
+body { min-width: 1200px; }
+
 div > a {color: white; }
 
 p {color: rgb(244,237,202) }
 
 #visualLinkContent {
+	min-width: 1200px;
 	padding-top: 50px;
 	padding-left: 40px;
 	padding-right: 40px;
