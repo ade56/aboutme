@@ -111,9 +111,15 @@ body {
 }
 
 #loginContent > a  {
-	color: rgb(244,237,202);
+	color: #222;
 	padding: 5px;
 }
+
+#loginContent > p  {
+	color: #222;
+}
+
+
 
 .loginInput {
 	background-color: rgb(108,113,81);
@@ -127,7 +133,7 @@ body {
 }
 
 #submit {
-	color: rgb(244,237,202);
+	color: #222;
 	padding: 10px;
 	margin-left: 10px;
 	background: rgb(108,113,81);
