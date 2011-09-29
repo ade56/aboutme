@@ -44,6 +44,7 @@ class blogpost {
 				<div class="fb-like" data-href="www.adevans.co.nz/phpblog/index.php?post=$this->id" data-width="450" data-show-faces="false"></div>
 		    </div>
 blogContent;
+
 		return $blogDisplay;
 	}
 	
