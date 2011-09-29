@@ -1,6 +1,7 @@
 <script type="text/javascript" src="_class/starterkit/jquery.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
+	
 	var height;
 	var heightIncrement;
 	
@@ -24,7 +25,7 @@ $(document).ready(function(){
 		target.fadeOut('slow', function() {
 			var test = this.id;
 			var testtwo = "_class/commitpost.php?remove="+test;
-			$("#entryContent").load(testtwo);
+			target.load(testtwo);
 		});
 	});
 	
@@ -40,6 +41,22 @@ $(document).ready(function(){
 			$(target).select();
 		});
 	});
+	
+	/** Content Box Resize to fit text within */
+    var test = $('.postText').attr('rows');
+	//function resizeText(){	
+		//var str = $('text-area').value;
+		//var cols = $('text-area').cols;
+
+		//var linecount = 0;
+		//$A(str.split("\n")).each( function(l) {
+			//linecount += Math.ceil( l.length / cols ); // take into account long lines
+		//} )
+		//$('text-area').rows = linecount + 1;
+	 //}
+
+
+
 });
 
 </script>
@@ -79,7 +96,7 @@ $(document).ready(function(){
 					username VARCHAR(15),
 					date DATE,
 					time TIME,
-					textContent VARCHAR(500),
+					textContent TEXT,
 					PRIMARY KEY (postID)
 					)";
 			
@@ -111,7 +128,7 @@ $(document).ready(function(){
 
 			echo "</div> \n";
 
-			echo "<div id='entryBorder'> \n";
+			echo "<div id='entryGradient'> \n";
 			echo $blogEntry->displayEntry();
 			echo "</div> \n";
 	?>

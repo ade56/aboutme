@@ -33,15 +33,14 @@ class blogpost {
 	
 	public function displayPost(){
 		$blogDisplay = <<<blogContent
-			<div id='post$this->id' name='post$this->id'>
-				<div id='title'> <b>$this->username</b> 
-					<img id='edit' src="edit.png"/>
+			<div class='userPost' id='post$this->id' name='post$this->id'>
+				<div class='postTitle'> <b>$this->username </b> 
+					<img class='editIcon' src="edit.png"/>
 					<img id='close' src="close.png"/> </br> $this->date
 				</div>
-				<textarea id="content" readonly>$this->textContent</textarea>
+				<div class='postText'> $this->textContent </div>
 				<div id="fb-root"/></div>
-				<div id="test" class="fb-like" data-href="http://studweb.cosc.canterbury.ac.nz/~ade56/test/mainpage.php?post=$this->id" data-width="450" data-show-faces="false"></div>
-				<img id="save" src="save.png"/>
+				<div class="fb-like" data-href="http://studweb.cosc.canterbury.ac.nz/~ade56/test/mainpage.php?post=$this->id" data-width="450" data-show-faces="false"></div>
 		    </div>
 blogContent;
 		return $blogDisplay;

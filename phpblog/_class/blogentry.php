@@ -22,7 +22,7 @@ class blogentry {
 		$entryDisplay = <<<blogContent
 			<form name="entry" id="blogentry" action='$_SERVER[PHP_SELF]' method="post">
 				<a><b>Blog Entry</b></a> </br> 
-				<textarea id="entryContent" NAME="entryContent" COLS=130px ROWS=6></textarea> </br>
+				<textarea id="entryTextArea" NAME="entryContent" COLS=130px ROWS=6></textarea> </br>
 				<input type="submit" value="Submit" />
 			</form> \n
 blogContent;

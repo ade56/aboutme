@@ -1,16 +1,20 @@
 <?php
-	include('blogpost.php');
-	
 	define("MYSQL_HOST", "localhost");
 	define("MYSQL_USER", "root");
-	define("MYSQL_PASS", "");
+	define("MYSQL_PASS", "9YijdeL4");
 	define("MYSQL_DB", "blogDB");
-
+	
+	$db = mysql_connect("".MYSQL_HOST."", "".MYSQL_USER."", "".MYSQL_PASS."") or die(mysql_error());
+	mysql_select_db("".MYSQL_DB."",$db) or die(mysql_error());
+	
 	if (isset($_GET['remove'])){
-		$blogPost = new blogpost();
 		$post = $_GET['remove'];
-		$sql = "DELETE FROM blogPosts WHERE postID=substr('$post',5)";
-		$blogPost->removePost($sql);
+		
+		$substring = substr($post,4);
+		
+		$sql = "DELETE FROM blogPosts WHERE postID='$substring'";
+			
+		mysql_query($sql);
 		
 		echo "";
 	} 
