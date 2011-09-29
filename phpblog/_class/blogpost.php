@@ -32,15 +32,16 @@ class blogpost {
 	}
 	
 	public function displayPost(){
+		$text = htmlspecialchars($this->textContent, ENT_QUOTES);
+		
 		$blogDisplay = <<<blogContent
 			<div class='userPost' id='post$this->id' name='post$this->id'>
 				<div class='postTitle'> <b>$this->username </b> 
-					<img class='editIcon' src="edit.png"/>
-					<img id='close' src="close.png"/> </br> $this->date
+					<img class='close' src="close.png"/> </br> $this->date
 				</div>
-				<div class='postText'> $this->textContent </div>
+				<div class='postText'> $text </div>
 				<div id="fb-root"/></div>
-				<div class="fb-like" data-href="http://studweb.cosc.canterbury.ac.nz/~ade56/test/mainpage.php?post=$this->id" data-width="450" data-show-faces="false"></div>
+				<div class="fb-like" data-href="www.adevans.co.nz/phpblog/index.php?post=$this->id" data-width="450" data-show-faces="false"></div>
 		    </div>
 blogContent;
 		return $blogDisplay;

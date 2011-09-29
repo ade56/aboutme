@@ -20,7 +20,7 @@ $(document).ready(function(){
 		});
 	
 	/** Click Event Upon "edit" button */
-	$('img[id="close"]').click(function(event){
+	$('.close').click(function(event){
 		var target = $(event.target).parent().parent();
 		target.fadeOut('slow', function() {
 			var test = this.id;
@@ -85,7 +85,7 @@ $(document).ready(function(){
 			# Define MySQL Settings
 			define("MYSQL_HOST", "localhost");
 			define("MYSQL_USER", "root");
-			define("MYSQL_PASS", "9YijdeL4");
+			define("MYSQL_PASS", "");
 			define("MYSQL_DB", "blogDB");
 			
 			$db = mysql_connect("".MYSQL_HOST."", "".MYSQL_USER."", "".MYSQL_PASS."") or die(mysql_error());
@@ -131,6 +131,7 @@ $(document).ready(function(){
 			echo "<div id='entryGradient'> \n";
 			echo $blogEntry->displayEntry();
 			echo "</div> \n";
+			
 	?>
 	<img id='treeone' src="white_tree.gif" alt="exit" />
 	<img id='treetwo' src="white_tree.gif" alt="exit" />

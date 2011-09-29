@@ -41,7 +41,7 @@ body {
 	background: -moz-linear-gradient(top,  #B5AA94, #7D9460);
 }
 
-.editIcon { margin-left: 848px; }
+.close { margin-left: 855px; }
 
 .postTitle, .postText {
 	border-radius: 5px;
@@ -50,7 +50,6 @@ body {
 
 .postText, #entryTextArea {
 	font-size:14px;
-	width: inherit;
 	margin: 1px;
 	background: #F1EEDD;
 	border-style:solid;
@@ -61,6 +60,10 @@ body {
 	color: #333;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
+}
+
+.postText {
+	width: 915px;
 }
 
 .fb-like {
