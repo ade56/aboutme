@@ -70,8 +70,9 @@
 				
 				<div class='skill'>
 					<img align="middle" id='progImg' src='../images/personal.png'/>  <b> Sporting ..?</b> </br> 
-					<a> Tennis, cricket, cycling (road+mtb) and surfing are primary sporting interests, these sports allow me to keep fit and interact with others. </br>
-					    + tour de france + Lance Armstrong + all blacks + good books + Roger Federer...</a>
+					<a> Growing up I have done a lot of road cycling, cricket, tennis and surfing. Keeping fit and the interaction with others which comes with</br> 
+						these activities is very important to me, and I recieve great personal enjoyment from them. Other than this, I have a keen interest in</br> 
+						following the all blacks, the tour de france, tennis grand slams and Roger Federer.</a>
 				</div>
 				
 				<div id='picture'>
@@ -79,6 +80,13 @@
 				</div>
 				<img id="mug" src="../images/mug.png" style="" />
 				
+				<div class='skill'>
+					<img align="middle" src='../images/academic.png'/>  <b>Cultural Interests..?</b> </br> 
+					<a> Having played guitar for a number of years, I enjoy playing with friends or listening to my favourite artists. I also love good
+						books, with particular emphasis on Bryce Courtenay, JR.Tolkien, Lance Armstrong novels and any african novel or autobiography. Working for the 
+						Gisborne District Council, and their work with the Sustainable Coastlines group over summer also taught me the importance of
+						responsible waste management, with a heavy on emphasis on recycling.   </a>
+				</div>
 						
 			<?php
 			
