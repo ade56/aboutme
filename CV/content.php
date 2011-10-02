@@ -61,10 +61,11 @@
 				</div>
 				
 				<div class='skill'>
-					<img align="middle" src='../images/academic.png'/>  <b>Cultural & Academic Interests..?</b> </br> 
-					<a> Growing up I have enjoyed spending time with my friends and family, playing my guitar (far too often!)</br>
- 					    and being home @ Wainui Beach. Within my course I have enjoyed software engineering and more recently </br>
-						I have passionatly enjoyed being emersed in various web computing technologies (both inside and outside of university).</a>
+					<img align="middle" src='../images/academic.png'/>  <b>Academic Interests..?</b> </br> 
+					<a> I believe my interest in web technologies and GIS can be attributed to the inherent front-end nature associated with these technologies. </br> 
+						My interest in web technologies, and the small amount of web related course work available, prompted me to create this website which has </br> 
+						been an excellent learning experience. However, course work in OO programming and physical geography stems from interests in math </br> 
+						and a love for the outdoors respectively. </a>
 				</div>
 				
 				<div class='skill'>

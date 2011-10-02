@@ -36,15 +36,15 @@ class blogpost {
 		
 		$blogDisplay = <<<blogContent
 			<div class='userPost' id='post$this->id' name='post$this->id'>
-				<div class='postTitle'> <b>$this->username </b> 
-					<img class='close' src="close.png"/> </br> $this->date
+				<div class='postTitle'>
+					<b>$this->username </b> </br> $this->date
 				</div>
 				<div class='postText'> $text </div>
 				<div id="fb-root"/></div>
 				<div class="fb-like" data-href="www.adevans.co.nz/phpblog/index.php?post=$this->id" data-width="450" data-show-faces="false"></div>
 		    </div>
 blogContent;
-
+		//<img class='close' src="close.png"/>
 		return $blogDisplay;
 	}
 	
