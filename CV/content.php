@@ -75,19 +75,18 @@
 						following the all blacks, the tour de france, tennis grand slams and Roger Federer.</a>
 				</div>
 				
-				<div id='picture'>
-					<b id='mugshot'> Mug Shot </b>			
-				</div>
-				<img id="mug" src="../images/mug.png" style="" />
-				
 				<div class='skill'>
-					<img align="middle" src='../images/academic.png'/>  <b>Cultural Interests..?</b> </br> 
+					<img align="middle" src='../images/cultural.png'/>  <b>Cultural Interests..?</b> </br> 
 					<a> Having played guitar for a number of years, I enjoy playing with friends or listening to my favourite artists. I also love good
 						books, with particular emphasis on Bryce Courtenay, JR.Tolkien, Lance Armstrong novels and any african novel or autobiography. Working for the 
 						Gisborne District Council, and their work with the Sustainable Coastlines group over summer also taught me the importance of
 						responsible waste management, with a heavy on emphasis on recycling.   </a>
 				</div>
-						
+				
+				<div id='picture'>
+					<b id='mugshot'> Mug Shot </b>			
+				</div>
+				<img id="mug" src="../images/mug.png" style="" />			
 			<?php
 			
 		}
