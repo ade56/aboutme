@@ -46,11 +46,6 @@
 		<li> Syntax seems clean and flexible with marginal learning curve.. </li> 
 		<li> Hard pressed to find a bad ROR review </li> 
 	</ul>
-	
-	<p id='welcome'>
-		I am eager to join the software engineering community to expand my </br>
-		abilities and hold myself to high level of professionalism despite the choice of scripting language.. Section to be continued.. 
-	</p>
 
 </body>
 
