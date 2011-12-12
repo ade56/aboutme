@@ -81,12 +81,7 @@
 						books, with particular emphasis on Bryce Courtenay, JR.Tolkien, Lance Armstrong novels and any african novel or autobiography. Working for the 
 						Gisborne District Council, and their work with the Sustainable Coastlines group over summer also taught me the importance of
 						responsible waste management, with a heavy on emphasis on recycling.   </a>
-				</div>
-				
-				<div id='picture'>
-					<b id='mugshot'> Mug Shot </b>			
-				</div>
-				<img id="mug" src="../images/mug.png" style="" />			
+				</div>		
 			<?php
 			
 		}
