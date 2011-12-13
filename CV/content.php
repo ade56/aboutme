@@ -62,16 +62,16 @@
 				
 				<div class='skill'>
 					<img align="middle" src='../images/academic.png'/>  <b>Academic Interests..?</b> </br> 
-					<a> I believe my interest in web technologies and GIS can be attributed to the inherent front-end nature associated with these technologies. </br> 
-						My interest in web technologies, and the small amount of web related course work available, prompted me to create this website which has </br> 
-						been an excellent learning experience. However, course work in OO programming and physical geography stems from interests in math </br> 
+					<a> I believe my interest in web technologies and GIS can be attributed to the inherent front-end nature associated with these technologies.  
+						My interest in web technologies, and the small amount of web related course work available, prompted me to create this website which has 
+						been an excellent learning experience. However, course work in OO programming and physical geography stems from interests in math  
 						and a love for the outdoors respectively. </a>
 				</div>
 				
 				<div class='skill'>
 					<img align="middle" id='progImg' src='../images/personal.png'/>  <b> Sporting ..?</b> </br> 
-					<a> Growing up I have done a lot of road cycling, cricket, tennis and surfing. Keeping fit and the interaction with others which comes with</br> 
-						these activities is very important to me, and I recieve great personal enjoyment from them. Other than this, I have a keen interest in</br> 
+					<a> Growing up I have done a lot of road cycling, cricket, tennis and surfing. Keeping fit and the interaction with others which comes with
+						these activities is very important to me, and I recieve great personal enjoyment from them. Other than this, I have a keen interest in 
 						following the all blacks, the tour de france, tennis grand slams and Roger Federer.</a>
 				</div>
 				
