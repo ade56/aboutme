@@ -29,23 +29,13 @@
 	<?php
 	//Ideas have links to mysql commands, jquery api and phpinfo()
 	include('../header.php');
-	?>
-	
-	 
+	?>	 
 	
 	<p id='welcome'>
 		<img src='../images/ror.png'/> </br>
 		<b> Ruby On Rails..! </b> 
-		Why am I interested??
+		Section to be continuedd.....
 	</p>
-	
-	<ul id='reasoning'>
-		<li> Fully object oriented </li>
-		<li> Frameworks improve code structure, while reducing code repitition. </li>
-		<li> MVC style architecture is inherent in Rails framework </li> 
-		<li> Syntax seems clean and flexible with marginal learning curve.. </li> 
-		<li> Hard pressed to find a bad ROR review </li> 
-	</ul>
 
 </body>
 

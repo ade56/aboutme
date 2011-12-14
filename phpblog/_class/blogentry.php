@@ -23,7 +23,7 @@ class blogentry {
 		//<input type="submit" value="Submit" />
 		
 		$entryDisplay = <<<blogContent
-			<form name="entry" id="blogentry" action='$_SERVER[PHP_SELF]' method="post">
+			<form name="entry" id="blogentry" action='' method="post">
 				<div id='entryTitle'>Blog Entry</div>
 				<div id="entryTextArea" NAME="entryContent"></div </br>			
 blogContent;
@@ -38,18 +38,25 @@ blogContent;
 	}
 	
 	function displayLogin(){
-		$login = <<<loginContent
-			<div id='loginContent'>
-				<p>
-					<b>Sorry..!</b> Only registered-members may post..
-				</p>
-				<form>
-					<a>Username:</a> <input class='loginInput' type="text" name="firstname" />
-					<a>Password:</a> <input class='loginInput' type="text" name="lastname" />
-					<input id="submit" type="submit" value="Submit" />
-				</form>
-			</div>
+		if(!session_is_registered(ade56))
+		{
+			$login = <<<loginContent
+				<div id='loginContent'>
+					<p>
+						<b>Sorry..!</b> Only registered-members may post..
+					</p>
+					<form name='form1' method='post' action='checkLogin.php'>
+						<a>Username:</a> <input class='loginInput' name="myusername" type="text" id="myusername">
+						<a>Password:</a> <input class='loginInput' name="mypassword" type="password" id="mypassword">
+						<input id="submit" type="submit" value="Submit" />
+					</form>
+				</div>
 loginContent;
+			} 
+			else
+			{
+					$login = "<h1>logged in</h1>";
+			}
 		return $login . "</form> \n";
 	}
 	

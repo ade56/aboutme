@@ -8,14 +8,14 @@ body {
 #centralContent {
 	margin: 0 auto;
 	background: none;
-	width: 1500px;
+	width: 90%;
 	padding-left: 40px;
 	padding-right: 40px;
 }
 
 #tabPane {
 	float: left;
-	width: 1000px;
+	width:69%;
 	text-align: center;
 	overflow-y:auto;
 	color: #fff;

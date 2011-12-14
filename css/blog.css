@@ -3,14 +3,15 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-#blogContent, #entryGradient {
+ #entryGradient {
 	padding-left: 40px;
 	padding-right: 40px;
 }
 
 #blogContent {
 	margin: auto;
-	width: 950px;
+	width: 100%;
+	height: 88%;
 	color: #fff;
 	background: #111;
 	border: 1px solid #000;
@@ -27,18 +28,20 @@ body {
 	margin : auto;
 	margin-top: 5px;
 	padding:5px;
-	background: #7D9460;
-	border-radius: 7px;
-	-moz-border-radius: 7px;
+	padding-left: 20px;
+	border-left: 2px solid white;
 }
 
 .postTitle {
 	padding: 5px;
 	font-size:13px;	
 	color:white;
-	background: -webkit-gradient(linear, left top, left bottom, from(#7D9460), to(#B5AA94));	
-	background: -moz-linear-gradient(top,  #B5AA94, #7D9460);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7D9460', endColorstr='#B5AA94');
+}
+
+.postTitle > b 
+{
+	color: #7D9460;
+	font-size: 16;
 }
 
 .close { margin-left: 855px; }
@@ -51,15 +54,9 @@ body {
 .postText {
 	font-size:14px;
 	margin: 1px;
-	background: #F1EEDD;
-	border-style:solid;
-	border-color: #B0C08F;
 	padding: 8px;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	color: #333;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
+	color: rgb(197,197,197);
 }
 
 .postText {
@@ -81,8 +78,6 @@ body {
 	bottom: 0px;
 	left: 50%;
 	margin-left: -515px;
-	background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
-	background: -moz-linear-gradient(top,  transparent,  black);
 }
 
 #blogentry {
@@ -118,8 +113,6 @@ body {
 #loginContent > p  {
 	color: #222;
 }
-
-
 
 .loginInput {
 	background-color: rgb(108,113,81);
