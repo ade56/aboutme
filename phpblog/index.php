@@ -24,7 +24,7 @@
 			# Define MySQL Settings
 			define("MYSQL_HOST", "localhost");
 			define("MYSQL_USER", "root");
-			define("MYSQL_PASS", "root");
+			define("MYSQL_PASS", "9YijdeL4");
 			define("MYSQL_DB", "blogDB");
 			
 			$db = mysql_connect("".MYSQL_HOST."", "".MYSQL_USER."", "".MYSQL_PASS."") or die(mysql_error());
