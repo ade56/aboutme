@@ -24,7 +24,7 @@ class blogentry {
 		
 		$entryDisplay = <<<blogContent
 			<form name="entry" id="blogentry" action='' method="post">
-				<div id='entryTitle'>Blog Entry</div>
+				<div id='entryTitle'>Write Something.... Click</div>
 				<div id="entryTextArea" NAME="entryContent"></div </br>			
 blogContent;
 		
