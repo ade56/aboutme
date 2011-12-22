@@ -26,7 +26,7 @@ $(document).ready(function(){
 			<img id='aboutme_img' src='../images/test3.png'/>
 			<p id='welcome_paragraph'><b>Hi There!</b> 
 				Welcome to my web-site. My name is Andrew Evans and I am a recent graduate from
-				Canterbury University in Christchurch, New Zealand. I enjoy web-technologies, agile work environments, sport and my guitar..</p>
+				Canterbury University in Christchurch, New Zealand. I enjoy web-technologies, agile work environments, sport and my guitar.....</p>
 			
 		</div>
 		
@@ -34,8 +34,8 @@ $(document).ready(function(){
 			<div id='left_footer'>
 				  <img src='../images/blog.png'>
 				  <ul>
-				  		<li class='footer_item'> Example of first blog post outlining something going along here..Example of first blog post outlining something going along here. </li>
-				  		<li class='footer_item'> Example of second blog post outlining something going along here.. Example of first blog post outlining something going along here.</li>
+				  		<li class='footer_item'>"The Chili Peppers without guitarist John Frusciante is like the Stones without Keef. Or U2 minus The Edge.</li> 
+				  		<li class='footer_item'> Tim Butcher - Blood river.. good read. Review = "A remarkable, fascinating book by a courageous and perceptive writer. One of the most exciting books to emerge.....</li>
 				   </ul>
 			</div>
 			<div id='right_footer'>

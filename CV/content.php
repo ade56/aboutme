@@ -12,19 +12,23 @@
 		if($request == 'techRequest'){
 			?>	
 				<div class='skill'>
-					 <h3>Programming?...</h3> </br> <a>Java, Python, PHP, C#.NET MVC, OO Design, Design Patterns</a> 
+					<img src='../images/info.png'>
+					 <h3>Programming?...</h3>  <a>Java, Python, PHP, C#.NET MVC, OO Design, Design Patterns</a> 
 				</div>
 				
 				<div class='skill'>
-					 <h3>Web Stuff?...</h3> </br> <a> Javascript/JQuery, CSS/CSS3, AJAX, Apache HTTP Web Server</a> 
+					<img src='../images/info.png'>
+					 <h3>Web Stuff?...</h3>  <a> Javascript/JQuery, CSS/CSS3, AJAX, Apache HTTP Web Server</a> 
 				</div>
 				
 				<div class='skill'>
-					<h3>Databases..?</h3> </br> <a> Structured Query Language, RDBMS, MySQL, PostGRESQL(PostGIS)</a>
+					<img src='../images/info.png'>
+					<h3>Databases..?</h3>  <a> Structured Query Language, RDBMS, MySQL, PostGRESQL(PostGIS)</a>
 				</div>
 				
 				<div class='skill'>
-					<h3>Tools?... </h3></b> </br> <a> Git/github, SVN, Capistrano</a>
+					<img src='../images/info.png'>
+					<h3>Tools?... </h3></b>  <a> Git/github, SVN, Capistrano</a>
 				</div>
 				
 			<?php
