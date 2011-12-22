@@ -18,6 +18,7 @@
 class blogpost {
 	
 	var $id;
+	var $title;
 	var $username;
 	var $date;
 	var $time;
@@ -25,6 +26,7 @@ class blogpost {
 	
 	public function updatePostInfo($row){
 		$this->id = $row['postID'];
+		$this->title = $row['title'];
 		$this->username = $row['username'];
 		$this->date = $row['date'];
 		$this->time = $row['time'];

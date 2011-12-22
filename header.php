@@ -1,9 +1,10 @@
 <?php
 echo "<div id='header'>
-			<h1><b id='first'>AndrewEvans.</b></br> ade56@uclive.ac.nz | 120 Peverel Street, Christchurch</h1>
-			<a href='/ror' id='ror'>Ruby On Rails</a>
-			<a href='/phpblog'>PHP Blog</a>
-			<a href='/CV'>Cirriculum Vitae</a> 
-			<a href='../' id='home'>Home</a>  
+			<img src='../images/test2.jpg' />
+			<div id='navigation_header'>	
+				<a class='nav_tab' href='../' id='home'>Home</a> 
+				<a class='nav_tab' href='/phpblog'>Blog</a>
+				<a id='CV_tab' class='nav_tab' href='/CV'>Cirriculum Vitae</a> 	 
+			</div>
 		</div>";	
 ?>

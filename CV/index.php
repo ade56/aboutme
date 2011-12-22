@@ -10,6 +10,10 @@ $(document).ready(function(){
 		var id = $(this).attr('id');
 
 		$("#tabPane").load(url+id);
+		
+		$("#leftPane  > li").css("background", "white");
+		
+		$(this).css("background","#e3e3e3");
 	});
 });
 
@@ -27,21 +31,22 @@ $(document).ready(function(){
 <head>
 
 <body>
-	<?php 
-		include('../header.php');
-	?>	
-	<div id='centralContent'>
-		<ul id='leftPane'>
-			<li class='request' id='cvRequest'> <b>Cirriculum Vitae</b> </br> the whole lot.. </li>
-			<li class='request' id='techRequest'> <b>Technical Summary</b> </br> what can I do? </li>
-			<li class='request' id='youRequest'> <b>Personal Summary</b> </br> what am I interested in? </li>
-			<li class='request' id='siteRequest'> <b>About this site</b> </br> technology used in this site </li>
-		</ul>
-		
-		<div id='tabPane'>
+	
+	   
+		<div id='body'>
 			<?php 
-				include('cv.html');
+				include('../header.php');
 			?>
+			<ul id='leftPane'>
+				<li class='request' id='cvRequest'> <img src='../images/cv_img.png'/> </li>
+				<li class='request' id='techRequest'>  <img src='../images/tech_img.png'/> </li>
+				<li class='request' id='youRequest'> <img src='../images/personal_img.png'/> </li>
+			</ul>
+	    	<div id='tabPane'>
+				<?php 
+					include('cv.html');
+				?>
+			</div>
 		</div>	
 	</div>
 </body>

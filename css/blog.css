@@ -1,5 +1,4 @@
 body {
-	background-color:#636155;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,32 +8,36 @@ body {
 }
 
 #blogContent {
+	clear: both;
 	margin: auto;
-	width: 100%;
-	height: 88%;
-	color: #fff;
-	background: #111;
-	border: 1px solid #000;
-	border-right: 1px solid #353535;
-	border-bottom: 1px solid #353535;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
 
 .userPost{
-	width: 940px;
 	text-align: left;	
 	margin : auto;
 	margin-top:20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	padding-left: 20px;
-	border-left: 2px solid white;
+	outline: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	padding: 10px;
+	background: #f0f0f0;
+}
+
+.userPost:first-child
+{
+	margin-top: 120px;
 }
 
 .postTitle {
 	padding: 5px;
 	font-size:13px;	
-	color:white;
+	color: #352b2b;
+	font-weight: bold;
 }
 
 .postTitle > b 
@@ -55,11 +58,7 @@ body {
 	margin: 1px;
 	padding: 8px;
 	font-size: 14px;
-	color: rgb(197,197,197);
-}
-
-.postText {
-	width: 915px;
+	color: rgb(95,107,119);
 }
 
 .fb-like {
@@ -71,16 +70,11 @@ body {
 	visibility: hidden;
 }
 
-#entryGradient {
-	width: 950px;
-	position: fixed;
-	bottom: 0px;
-	left: 50%;
-	margin-left: -515px;
-	margin-bottom: -1.5%;
-}
-
 #blogentry {
+	position: fixed;
+	width: 800px;
+	margin-left: -400px;
+	left: 50%;
 	height: 30px;
 	border-style:solid;
 	border-color: #B5AA94;

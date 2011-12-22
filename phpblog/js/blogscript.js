@@ -2,8 +2,7 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	
-	var height;
-	var heightIncrement;
+	var entryOpen = true;
 	
 	/** Mouse Over Extending Text Area Height */
 	$('div[id^="content"]').mouseover(function(e) {
@@ -30,16 +29,13 @@ $(document).ready(function(){
 	});
 	
 	/** Click Event Upon "edit" button */
-	$('img[id="edit"]').click(function(event){
-		var target = $(this).parent().next("#content");
-		
-		/** Text Within Content is made Editable, Highlighted & Expanded */
-		$(target).attr('readonly',false);
-		$(target).animate({
-			//height: scrollHeight
-		}, 2000, function() {
-			$(target).select();
-		});
+	$('#blogentry').click(function() {
+  			$('#blogentry').animate({
+   					
+   					height: '90%'			
+   				 	
+  			}, 5000, 'linear', function() {
+ 		 });
 	});
 	
 	/** Content Box Resize to fit text within */

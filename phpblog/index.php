@@ -15,6 +15,7 @@
 		<meta property="fb:admins" content="536880946" />
 	</head>
 	<body>
+		    <div id='body'>
 	<?php
 		error_reporting(0);
 		include('../header.php');
@@ -32,6 +33,7 @@
 			
 			$sql = "CREATE TABLE IF NOT EXISTS blogPosts (
 					postID int NOT NULL AUTO_INCREMENT,
+			    	title VARCHAR(60),
 					username VARCHAR(15),
 					date DATE,
 					time TIME,
@@ -72,5 +74,6 @@
 			echo "</div> \n";
 			
 	?>
+		</div>
 	</body>
 </html>

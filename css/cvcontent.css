@@ -1,18 +1,32 @@
+table { clear:both ;}
+
 li { list-style-type: none;}
 
 div.skill > a {
-	color: rgb(154,154,154);
+	color: rgb(95,107,119);
+	font-size: 10pt;
 	padding-top: 50px;
+	margin:10px;
 }
 
-div.skill > * {
+div.skill > h3 {
+	font-weight: bold;
+	font-size: 15;
+	color: #7D9460;
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: text-top;
+}
+
+div.skill > img 
+{
+	float:left;
 }
 
 div.skill {
-	text-align: left;
 	padding: 20px;
 	padding-left: 20px;
-	
+	text-align:left;
 }
 
 #aboutList > * {
