@@ -11,7 +11,7 @@
 	clear: both;
 }
 
-#footer_welcome
+#blog_work_content
 {
 	width: 800px;
 	clear:both;
@@ -38,7 +38,7 @@
     padding-left: 20px;
 }
 
-#left_footer, #right_footer
+#blog_list, #work_list
 {
 	margin-top: 5px;
 	padding-top: 20px;
@@ -50,16 +50,16 @@
 	list-style-type:none;
 }
 
-#left_footer > ul, #right_footer > ul
+#blog_list > ul, #work_list > ul
 {
 		list-style-type:none;
 }
 
-#left_footer 
+#blog_list 
 {
 }
 
-.footer_item
+.blog_work_list
 {
 	padding: 7px;
 	margin-right: 30px;
@@ -68,7 +68,7 @@
 	border-top: 1px dotted grey;
 }
 
-.footer_item > a
+.blog_work_list > a
 {
 	color: rgb(160,148,88);
 }

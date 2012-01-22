@@ -5,8 +5,6 @@ li > b{
 body {
 }
 
-
-
 #leftPane {
 	clear:both;
 	width: 770px;
@@ -18,24 +16,23 @@ body {
 	border-bottom: 1px dashed #cacaca;
 }
 
-#leftPane >li:first-child{
-	background: #e3e3e3;
-}
-
-#leftPane  > li{
+.request {
 	margin: 10px;
 	margin-top: 20px;
 	margin-bottom: -2px;
 	width: 220px;
 	float:left;
 	font-size: 13;
-	color: rgb(244,237,202);
+	background: white;
 	cursor: pointer;
 	border-left-radius:10px;
 	border-top-right-radius:10px;
 	border-top-left-radius:10px;
 }
-#leftPane  > li:hover {background: #e3e3e3; }
+
+.request:first-child{
+	background: #e3e3e3;
+}
 
 #rightPane {
 	float: left;
