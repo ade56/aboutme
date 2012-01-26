@@ -6,8 +6,8 @@
 		<?php include './js/info.js'; ?>
 	<head>
 	<body>
-			<div id='body'>
-				<?php include '/../shared/menu_view.php'; ?>
+			<div id='body' class='info_page'>
+				<?php $this->load->view('shared/menu_view.php'); ?>
 		    	<div id='tabPane'>
 	<table id='cv_table'>
 		<tr class='cvRow'>

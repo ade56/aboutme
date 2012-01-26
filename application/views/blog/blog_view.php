@@ -5,8 +5,8 @@
 	<link href="/./css/blog.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
-	<?php include '/../shared/menu_view.php'; ?>
-	<div id="body">
+	<div id="body" class="blog_page">
+		<?php $this->load->view('shared/menu_view.php'); ?>
 		<?php foreach ($query as $entry) { ?>
   			<div class="blog_entry">
   				<span class='blog_date'><?php echo date('M j', strtotime($entry->creation_date)) . '</br>' . 										     		date('Y', strtotime($entry->creation_date)); ?></span>

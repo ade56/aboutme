@@ -64,4 +64,8 @@ body {
 	border-top:5px solid green;
 }
 
+.home_page .home_tab, .blog_page .blog_tab, .info_page .info_tab {
+	 border-top:5px solid green;	 
+  } 
+
 /** CSS COMMENTS */

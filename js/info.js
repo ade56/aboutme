@@ -2,10 +2,9 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	
-	$('.request').click(function() {
-		$("#tabPane").load("/Info/" + $(this).attr('id'));
-		$('.request').removeClass('greyClass');
-		$(this).addClass('greyClass');
+	$('.nav_tab').click(function() {
+		$('.nav_tab').removeClass('greenClass');
+		$(this).addClass('greenClass');
 	});
 
 	$('#information').click();	

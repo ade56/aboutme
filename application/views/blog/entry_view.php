@@ -7,7 +7,6 @@
 </head>
 <body>
 	<div id="body" onload="">
-			<?php include '/../shared/menu_view.php'; ?>
 	  		<h2>
 	  			<?php echo $post->title; ?>
 			</h2>

@@ -3,10 +3,11 @@
 	<title>Andrew Evans Index</title>
 	<link href="/./css/header.css" rel="stylesheet" type="text/css" media="screen" />
 	<link href="/./css/welcome.css" rel="stylesheet" type="text/css" media="screen" />
+	<?php include '/./js/info.js'; ?>
 </head>
 <body>
-	<div id="body">
-		<?php include '/../shared/menu_view.php'; ?>
+	<div id="body" class='home_page'>
+		<?php $this->load->view('shared/menu_view.php'); ?>
 		<div id='welcome'>
 			<a href='/CV/'><img id='aboutme_img' src='../images/test3.png'/></a>
 			<p id='welcome_paragraph'><b>Hi There!</b> Welcome to my web-site. My name is Andrew Evans and I am a recent graduate from Canterbury University in Christchurch, New Zealand. I enjoy web-technologies, agile work environments, sport and my guitar.....</p>	
