@@ -3,7 +3,6 @@
 		<title> Andrew Evans Cirriculum Vitae </title>
 		<link href="../css/header.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="../css/cv.css" rel="stylesheet" type="text/css" media="screen" />
-		<?php include './js/info.js'; ?>
 	<head>
 	<body>
 			<div id='body' class='info_page'>
