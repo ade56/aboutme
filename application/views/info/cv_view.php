@@ -1,73 +1,24 @@
-<div>
-	<style type="text/css">
-	
-	#cvTitle {
-		color: #B5AA94;
-		font-weight: bold;
-		font-size: 22;
-		padding-top: 20px;
-		vertical-align: text-top;
-	}
-	
-	#contactList {
-		padding-left: 0px;
-		padding-top: 7px;
-	}
-	
-	#contactList > li > a{
-		padding: 4px;
-		color: white;
-	}
-	
-	.leftColumn {
-		font-weight: bold;
-		font-size: 15;
-		color: #7D9460;
-		padding: 30px;
-		padding-top: 20px;
-		padding-left: 60px;
-		vertical-align: text-top;	
-	}
-	
-	.rightColumn {
-		color:  rgb(95,107,119);
-		font-size: 10pt;
-		padding: 20px;
-		padding-right: 40px;
-	}
-	
-	.rightColumn > h3 {
-		font-size: 14;
-		color: #212121;
-	}
-	
-	.rightColumn > h4 {
-		font-size: 10pt;
-		color: #3c3c3c;
-	}
-	</style>
+
+
 	<table id='cv_table'>
-		
-		<tr class='cvRow'>
-			<td class='leftColumn'> Education </td>
-			<td class='rightColumn'> <h3>BSc. Major in Computer Science and Geography </h3>
-				 <h4>University Of Canterbury, Christchurch</h4> 
-				 Related Course Work : Web Development, GIS, Java, Relational Databases</td>
-		</tr>
-		
 		<tr class='cvRow' >
-			<td class='leftColumn'> About me </td>
-			<td class='rightColumn'>I believe that I am a friendly, approachable and dependable person. Within my course at Canterbury Unversity I have been predominantly interested in web based technologies and Geographic Information Systems (GIS) . However, I am also interested in course work relating to java programming, agile software development and physical geography.
-				Among other things I am a sports minded person who enjoys tennis, cycling and good surf (Especially @ Wainui Beach). Musically I love my guitar and any Eric Clapton, Dire Straits or Buckethead. Finally, spending time with my family and/or good friends is also a high priority.
+			<td class='leftColumn'> <img src='/./images/bio.png' /> </td>
+			<td class='rightColumn'> 
+				content goes in here
 			</td>
+		</tr>	
+		<tr class='cvRow'>
+			<td class='leftColumn'> <img src='/./images/academic.png' /></td>
+			<td class='rightColumn'> <h4>BSc. Major in Computer Science and Geography </h4>
+				 <h5>University Of Canterbury, Christchurch</h5> 
+				 Related Course Work : Web Development, GIS, Java, Relational Databases</td>
 		</tr>
 		
 		<tr class='cvRow'>
 			<td class='leftColumn'> Work Experience </td>
 			<td class='rightColumn'><h3> Summer of eResearch - Nov 11 – Feb 12 </h3>
 				<h4> University of Canterbury - Christchurch </h4>
-				Summer project developing a plug-in as a contribution to the digital humanities community for the 'Omeka' CMS. The
-				 plugin retrieves and publishes digital new zealand archive content (www.digitalnz.org) and requires the use of web-services, javascript, PHP, content management software, self-discipline given the work is unsupervised and communication skills for weekly presentations on the application's progress. 
+				Summer project developing a plug-in as a contribution to the digital humanities community for the 'Omeka' CMS. Plugin retrieves and publishes digital new zealand archive content (www.digitalnz.org) and requires the use of web-services, javascript, PHP and content management software. 
 			  </td>
 		</tr>
 		
@@ -102,18 +53,6 @@
 				Labourer for two years de-tasseling seed maize plants, and field crew
 				supervisor following this which fluctuated between 4 and 12 other people </td>
 		</tr >
-		
-		<tr class='cvRow'>
-			<td class='leftColumn'> Technical Skills </td>
-			<td class='rightColumn'>
-					<li> <h4>Programming</h4> Java, Python, PHP, C#.NET MVC, OO Design, Design Patterns </li>
-					<li> <h4>Web Computing</h4>Javascript/JQuery, CSS/CSS3, AJAX, Apache HTTP Web Server </li>
-					<li> <h4>Databases</h4> SQL, RDBMS, MySQL, PostgreSQL(PostGIS)</li>
-					<li> <h4>Tools</h4> Git/github, SVN, Capistrano</li>
-					<li> <h4>Geography</h4> ArcGIS, OGC standards, OSGeo web-mapping and desktop projects</li>
-				</h4>
-			</td>
-		</tr>
 		
 		<tr class='cvRow'>
 			<td class='leftColumn'> References </td>

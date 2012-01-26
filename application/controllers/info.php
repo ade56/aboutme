@@ -9,7 +9,7 @@ class Info extends CI_Controller {
 	
 	function information()
 	{
-		$this->load->view('info/cv_view.php');	
+		$this->load->view('info/resume.html');	
 	}
 	
 	function technical()

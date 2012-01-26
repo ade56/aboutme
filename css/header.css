@@ -1,5 +1,6 @@
-body{
-	font-family: "Lucida Grande", "Book Antiqua", Palatino, serif;
+body {
+	font: 14px/1.5 Georgia, serif;
+	color: #6E6E63;
 	background-image:url('../pattern.jpg');
     background-repeat:repeat;
 }
@@ -7,8 +8,8 @@ body{
 #body
 {
 	width: 810px;
-	min-height: 100%;
 	background-color: white;
+	min-height: 100%;
 	margin: auto;
 	text-align: center;
 	border-left: 1px solid rgb(231,231,231);
@@ -41,19 +42,26 @@ body{
 #navigation_header
 {
 	margin-left: 285px;
+	height: 120px;
 }
 
 .nav_tab
 {
-	margin: 2px;
-	color:#212121;
-	margin-top: 10px;
-	font-size: 10pt;
-	padding:20px;
-	padding-top:7px;
+	margin-top:3px;
+	color:#356;
+	font-size:10pt;
+	padding:10px;
+	padding-top:10px;
 	padding-bottom:7px;
 	text-decoration: none;
 	float: left;
+	border-top:5px solid white;
+	width: 70px;
+}
+
+.nav_tab:hover
+{
+	border-top:5px solid green;
 }
 
 /** CSS COMMENTS */

@@ -9,8 +9,9 @@
 	<div id="body">
 		<?php foreach ($query as $entry) { ?>
   			<div class="blog_entry">
-    			<h2><a href="/blog/entry/<?php echo $entry->url_title; ?>"><?php echo $entry->title; ?></a></h2>
-    			<span class="metadata"><?php echo $entry->author; ?></span>
+  				<span class='blog_date'><?php echo date('M j', strtotime($entry->creation_date)) . '</br>' . 										     		date('Y', strtotime($entry->creation_date)); ?></span>
+    			<h4><a href="/blog/entry/<?php echo $entry->url_title; ?>"><?php echo $entry->title; ?></a></br>
+    			<b class="metadata"><?php echo $entry->author; ?></b></h4>
     			<p><?php echo $entry->summary; ?></p>
  		 	</div>
   		<?php } ?>

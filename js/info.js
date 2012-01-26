@@ -2,16 +2,10 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	
-  	$('.request').mouseenter(function() {
-    	$(this).css("background","#e3e3e3"); 			
-	});
-	
 	$('.request').click(function() {
 		$("#tabPane").load("/Info/" + $(this).attr('id'));
-	});
-  		 
-	$('.request').mouseleave(function() {	
-  		$(this).css("background","white");
+		$('.request').removeClass('greyClass');
+		$(this).addClass('greyClass');
 	});
 
 	$('#information').click();	

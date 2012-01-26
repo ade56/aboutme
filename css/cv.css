@@ -1,39 +1,56 @@
-li > b{
-	font-size: 16;
-}
-
-body {
-}
-
-#leftPane {
-	clear:both;
-	width: 770px;
-	height: 60px;	
-	margin-top: 50px;
-	margin-bottom: 1px;
-	text-align: center;
-	list-style-type: none;
-	border-bottom: 1px dashed #cacaca;
-}
-
-.request {
-	margin: 10px;
-	margin-top: 20px;
-	margin-bottom: -2px;
-	width: 220px;
-	float:left;
-	font-size: 13;
-	background: white;
-	cursor: pointer;
-	border-left-radius:10px;
-	border-top-right-radius:10px;
-	border-top-left-radius:10px;
-}
-
-.request:first-child{
-	background: #e3e3e3;
-}
-
-#rightPane {
-	float: left;
-}
+#cvTitle {
+		color: #B5AA94;
+		font-weight: bold;
+		font-size: 22;
+		padding-top: 20px;
+		vertical-align: text-top;
+		clear: both;
+	}
+	
+	#contactList {
+		padding-left: 0px;
+		padding-top: 7px;
+	}
+	
+	#contactList > li > a{
+		padding: 4px;
+		color: white;
+	}
+	
+	.cvRow {
+		clear: both;
+	}
+	
+	.leftColumn {
+		float:left;
+		font-weight: bold;
+		font-size: 15;
+		color: #7D9460;
+		vertical-align: text-top;	
+		padding: 15px;
+		margin-top: 10px;
+	}
+	
+	.rightColumn {
+		color:  rgb(95,107,119);
+		font-size: 10pt;
+		padding-right: 40px;
+		padding-left: 20px;
+		padding-top: 20px;
+		border-left: 1px dashed brown;
+		vertical-align:top;
+	}
+	
+	.rightColumn > h3 {
+		font-size: 14;
+		color: #212121;
+	}
+	
+	.rightColumn > h4 {
+		font-size: 10pt;
+		color: #3c3c3c;
+	}
+	
+	.workxp_p {
+		margin-bottom: 30px;
+	}
