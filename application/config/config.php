@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'www.adevans.co.nz/';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +44,7 @@ $config['index_page'] = '';
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
-$config['uri_protocol']	= 'QUERY_STRING';
+$config['uri_protocol']	= 'REQUEST_URI';
 
 /*
 |--------------------------------------------------------------------------
