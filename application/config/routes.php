@@ -39,8 +39,8 @@
 */
 
 $route['default_controller'] = "home/index";
-$route['blog'] = "/blog/index";
-$route['info'] = "/info/index";
+$route['blog'] = "blog/index";
+$route['info'] = "info/index";
 $route['404_override'] = '';
 
 
