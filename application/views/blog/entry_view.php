@@ -1,10 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Andrew Evans Index</title>
+	<title>Andrew Evans Blog</title>
 	<link href="/./css/header.css" rel="stylesheet" type="text/css" media="screen" />
 	<link href="/./css/blog.css" rel="stylesheet" type="text/css" media="screen" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 </head>
 <body>
 	<div id="body" onload="">
