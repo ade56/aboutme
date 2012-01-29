@@ -1,7 +1,7 @@
 body {
 	font: 14px/1.5 Georgia, serif;
 	color: #6E6E63;
-	background-image:url('../pattern.jpg');
+	background-image:url('/./images/pattern.jpg');
     background-repeat:repeat;
 }
 
@@ -41,7 +41,7 @@ body {
 
 #navigation_header
 {
-	margin-left: 285px;
+	margin-left: 310px;
 	height: 120px;
 }
 

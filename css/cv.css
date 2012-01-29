@@ -21,6 +21,24 @@
 		clear: both;
 	}
 	
+	#cv_header > img {
+		margin-left: 50px;
+		padding: 10px;
+		border: 1px solid #dedede;
+	}
+	
+	#cv_header > div {
+		margin-top: 20px;
+		margin-left: 50px;
+	}
+	
+	#cv_header > div > * {
+		color: #475261;
+		text-align:left;
+		margin: 0;
+		padding: 0;
+	}
+	
 	.leftColumn {
 		float:left;
 		font-weight: bold;
@@ -46,9 +64,37 @@
 		color: #212121;
 	}
 	
-	.rightColumn > h4 {
+	.rightColumn > h4, .tech_list > div > li { 
 		font-size: 10pt;
 		color: #3c3c3c;
+	}
+	
+	.tech_list > * {
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: left;
+		float: left;
+		width: 150px;
+	}
+	
+	.tech_list > div > li { 
+		font-weight: bold;	
+	}
+	
+	.tech_list > div > a {
+		color: rgb(160,148,88);
+	}
+	
+	#social_contact {
+		float: left;
+	}
+	
+	#social_contact > a > img {
+	
+	}
+	
+	#cv_header > * {
+		float: left;
 	}
 	
 	.workxp_p {

@@ -20,7 +20,7 @@ class Blog extends CI_Controller {
 	      	if(!$entry_data['post']){
 	        	redirect('/blog', 'location');
 	      	} else {
-	      		$this->load->view('shared/menu_view', $entries);
+	      		$this->load->view('shared/menu_view');
 	        	$this->load->view('/blog/entry_view', $entry_data);
 	      	}
 	   } else {

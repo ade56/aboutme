@@ -14,7 +14,7 @@
 		
 		<div id='blog_work_content'>
 			<div id='blog_list'>
-				  <a href='/phpblog/'><img src='/./images/blog.png'></a>
+				  <a href='/blog/'><img src='/./images/blog.png'></a>
 				  <ul>
 				  		<?php for ($i = 0 ; $i < 2 ; $i++) { ?>
 				  			<li class='blog_work_list'><?php echo substr($query[$i]->summary, 0, 153);  ?>...</li>
@@ -37,8 +37,9 @@
 		<div id='bottom_contact'>
 			<img src='../images/contact.png'>
 			<p> <b>e:</b> ade56@uclive.ac.nz | <b>p:</b> +27 3256 374 |
-				<a href="http://www.linkedin.com/profile/view?id=149677087"><img class='social_icon' src='/./images/linkedin.png'/></a>
-				<a href="http://www.facebook.com/profile.php?id=536880946"><img class='social_icon' src='/./images/facebook_icon1.jpg'/></a>
+				<a href="http://www.linkedin.com/profile/view?id=149677087" target='_blank'><img class='social_icon' src='/./images/linkedin.png'/></a>
+				<a href="http://www.facebook.com/profile.php?id=536880946" target='_blank'><img class='social_icon' src='/./images/facebook_icon1.jpg'/></a>
+				<a href="https://github.com/ade56" target='_blank'><img class='social_icon' src='/./images/github_icon.png'/></a>
 				<a href="skype:andy.evans85?call" >
 					<img class='social_icon' src="http://mystatus.skype.com/balloon/andy%2Eevans85" width="75" height="30" alt="My status" />
 				</a>		

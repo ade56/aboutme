@@ -40,8 +40,16 @@
 	margin: 0px;
 }
 
+#blog_full_title {
+	clear: both;
+}
+
 #blog_introduction > img {
 	margin-top:20px;
 	margin-left: 20px;
 	vertical-align:text-bottom;
+}
+
+#blog_full_view {
+	margin: 15px;
 }

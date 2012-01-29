@@ -8,18 +8,26 @@
 			<div id='body' class='info_page'>
 				<?php $this->load->view('shared/menu_view.php'); ?>
 		    	<div id='tabPane'>
+						
 	<table id='cv_table'>
 		<tr class='cvRow'>
 			<td class='leftColumn'> <img src='/./images/bio.png' /> </td>
 			<td class='rightColumn'> 
 				I am an recent graduate from Canterbury Unversity who is enthusiastic about web development, good surf and my guitar. I am well educated and most importantly I am eager to expand my abilities and hold myself to the highest level of profressionalism I am capable of. 
 			</td>
-		</div>	
+		</tr>	
 		
-		<tr class='cvRow'>
+		<tr class='cvRow' >
 			<td class='leftColumn'> <img src='/./images/programming.png' /> </td>
 			<td class='rightColumn'> 
-				
+				<div class='tech_list' style='padding-top:10px;'>
+					<div> <li>Java..</li> university project developing audience surveying system.
+					</div>
+					<div> <li> PHP, jQuery, css.. </li> Summer project and this website. See <a href='github'>github </a>for examples.
+					</div>
+					<div style='width:250px;'> <li> C#.net, svn, sql, mysql, RDMS.. </li> frequently used throughout personal and/or university projects.. 
+					</div>
+				</div>
 			</td>
 		</div>	
 		
@@ -60,7 +68,7 @@
 			<td class='leftColumn'> <img src='/./images/referees.png' /></td>
 			<td class='rightColumn'>
 				<h4> James Smithies,  Senior Lecturer in Digital Humanities, Univerisity of Canterbury</h4>
-				+64 7 549 1044 - Extension*2012 - ian@agfirstbop.co.nz
+				+64 3 364 29872 -  james.smithies@canterbury.ac.nz 
 				<h4> Ian Stevens, Managing Directory, Agfirst Bay of Plenty, Katikati</h4>
 				+64 7 549 1044 - Extension*2012 - ian@agfirstbop.co.nz
 			</td>

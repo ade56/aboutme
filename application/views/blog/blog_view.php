@@ -5,7 +5,7 @@
 	<link href="/./css/blog.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
-	<div id="body" class="blog_page">
+	<div id="body" class="blog_page wrapper">
 		<?php $this->load->view('shared/menu_view.php'); ?>
 		<?php foreach ($query as $entry) { ?>
   			<div class="blog_entry">
