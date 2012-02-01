@@ -26,7 +26,7 @@ body {
 	width: 800px;
 	text-align:center;
 	margin: auto;
-	border-top: 2px solid rgb(140,140,140);
+	border-top: 2px solid #1b1b1b;
 }
 
 #header > *
@@ -34,40 +34,35 @@ body {
 	float: left;
 }
 
-#header > img
-{
-	padding-top: 10px;
-	padding-left: 15px;
-	border-bottom: 2px dotted grey;
-}
-
 #navigation_header
 {
-	margin-left: 310px;
-	height: 120px;
+	padding-left: 335px;
+	height: 43px;
+	background : #f4f2ed;
+	border-bottom: 1px solid #e9e7e1;
 }
 
 .nav_tab
 {
-	margin-top:3px;
-	color:#356;
+	color:#1b1b1b;
 	font-size:10pt;
 	padding:10px;
-	padding-top:10px;
-	padding-bottom:7px;
+	padding-top: 15px;
 	text-decoration: none;
+	border-right: 1px solid white;
 	float: left;
-	border-top:5px solid white;
 	width: 70px;
+	height: 22px;
+	border-radius: 2px;
 }
 
 .nav_tab:hover
 {
-	border-top:5px solid green;
+	background: #e9e7e1;
 }
 
 .home_page .home_tab, .blog_page .blog_tab, .info_page .info_tab {
-	 border-top:5px solid green;	 
+	background: #e9e7e1; 
   } 
 
 /** CSS COMMENTS */
