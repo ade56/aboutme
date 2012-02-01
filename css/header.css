@@ -9,6 +9,7 @@ body {
 {
 	width: 810px;
 	background-color: white;
+	margin-bottom: 0;
 	min-height: 100%;
 	margin: auto;
 	text-align: center;
@@ -21,10 +22,11 @@ body {
 #header
 {
 	clear: both;
+	height: 120px;
 	width: 800px;
 	text-align:center;
 	margin: auto;
-	border-bottom: 2px solid rgb(140,140,140);
+	border-top: 2px solid rgb(140,140,140);
 }
 
 #header > *

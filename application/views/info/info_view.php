@@ -21,11 +21,11 @@
 						<td class='leftColumn'> <img src='/./images/programming.png' alt='prog'/> </td>
 						<td class='rightColumn'> 
 							<div class='tech_list' style='padding-top:10px;'>
-								<div> <li>Java..</li> university project developing audience surveying system.
+								<div> <li>Java</li> University project developing audience surveying system.
 								</div>
-								<div> <li> PHP, jQuery, css.. </li> Summer project and this website. See <a href='github'>github </a>for examples.
+								<div> <li> PHP, jQuery, HTML\CSS </li> Summer project and this website. See <a href='github'>github </a>for examples.
 								</div>
-								<div style='width:250px;'> <li> C#.net, SVN, SQL, MySQL.. </li> frequently used throughout personal and/or university projects.. 
+								<div style='width:250px;'> <li> C#.NET, SVN, MySQL</li> frequently used throughout personal and/or university projects.. 
 								</div>
 							</div>
 						</td>

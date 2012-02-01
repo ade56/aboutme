@@ -1,8 +1,10 @@
-
+#body
+{
+	height: 100%;
+}
 #welcome
 {
 	margin: auto;
-	margin-top:120px;
 	text-align:justify;
 	padding-left: 20px;
 	color: rgb(95,107,119);

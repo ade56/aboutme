@@ -1,4 +1,7 @@
-
+#body
+{
+	height: 100%;
+}
 .blog_entry {
 	text-align: left;	
 	margin : auto;
