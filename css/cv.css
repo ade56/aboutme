@@ -17,9 +17,7 @@
 		color: white;
 	}
 	
-	.cvRow {
-		clear: both;
-	}
+	
 	
 	#cv_header > img {
 		margin-left: 50px;
@@ -55,8 +53,8 @@
 		padding-right: 40px;
 		padding-left: 20px;
 		padding-top: 20px;
-		border-left: 1px dashed brown;
 		vertical-align:top;
+		border-left: 1px dashed #cccccc;
 	}
 	
 	.rightColumn > h3 {
